@@ -1,0 +1,102 @@
+body{
+    background: #f6f6fa;
+    padding: 40px 40px 40px 40px;
+    font-family: "Montserrat", sans-serif;         
+}
+.Wrapper{
+    background: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 40px;
+}
+.main-content{
+    padding-left: 40px;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+.Sidebar{
+    background: #007aff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    width: 370px;
+}
+.sidebar-content{
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+.sidbar-title{
+    font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 22px;
+        color: #f7f7f8;
+        margin-bottom: 12px;
+        margin-top: 0;
+}
+.sidbar-list{
+    font-family: var(--font-family);
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 171%;
+        color: #faf7f7;
+        margin-left: 0;
+        padding-left: 12px;
+}
+.sidbar-type{
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 171%;
+        color: #faf7f7;
+}
+.my-name{
+    font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 122%;
+        color: #000;
+        margin-bottom: 12px;
+        margin-top: 0;
+}
+.Work-experience{
+    font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 123%;
+        color: #000;
+}
+.my-profession{
+    font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 125%;
+        color: #000;
+        margin-top: 12px;
+        margin-bottom: 12px;
+}
+.my-work-place{
+    font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 125%;
+        color: #3f3d3d;
+        margin-top: 8px;
+        margin-bottom: 12px;
+}
+.my-work-place-list{
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        color: #595959;
+        margin-left: 0;
+        list-style-position: inside;
+}
+.my-work-place-title{
+    margin-left: 0;
+    
+}

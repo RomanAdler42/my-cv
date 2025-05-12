@@ -4,17 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- Wrapper -->
-    <div>
+    <div class="Wrapper">
       <!-- Main content -->
-      <div>
+      <div class="main-content">
         <!-- My info -->
-        <h1>Natalia Adler</h1>
+        <h1 class="my-name">Natalia Adler</h1>
         <address>
           <ul>
-            <li><a href="tel:+48575276927">+48-575-276-927</a></li>
+            <li>
+              <a href="tel:+48575276927">+48-575-276-927</a>
+            </li>
             <li>
               <a href="mailto:adler19863@gmail.com">adler19863@gmail.com</a>
             </li>
@@ -27,110 +36,133 @@
             </li>
           </ul>
         </address>
+
+        <main>
+          <!-- Work experience -->
+          <h2 class="Work-experience">Doświadczenie</h2>
+
+          <p>11/2023-obecnie</p>
+          <h3 class="my-profession">Pracownik produkcji</h3>
+          <h4 class="my-work-place">World Sports Company. Stargard</h4>
+          <div class="my-work-place-list">
+            <ul>
+              <li class="my-work-place-title">
+                Realizowanie założonych ceów według planów produkcyjnych.
+              </li>
+              <li class="my-work-place-title">
+                Przestrzeganie obowiązujących zasad i procedur BHP.
+              </li>
+              <li class="my-work-place-title">
+                Współpracowanie z innymi pracownikami produkcji.
+              </li>
+            </ul>
+          </div>
+
+          <p>08/2023-11/2023</p>
+          <h3 class="my-profession">Monter grzejnictwa</h3>
+          <h4 class="my-work-place">Backer obr. Stargard</h4>
+          <div class="my-work-place-list">
+            <ul>
+              <li class="my-work-place-title">
+                Przygotowanie materiałów i narzędzi potrzebnych do montażu.
+              </li>
+              <li class="my-work-place-title">
+                Przestrzeganie przepisów BHP i norm jakościowych podczas pracy.
+              </li>
+            </ul>
+          </div>
+
+          <p>02/2021-07/2023</p>
+          <h3 class="my-profession">Pracownik produkcji</h3>
+          <h4 class="my-work-place">SPAAS Candles. Stargard</h4>
+          <div class="my-work-place-list">
+            <ul>
+              <li class="my-work-place-title">
+                Realizowanie założonych celów według planów produkcijnych.
+              </li>
+              <li class="my-work-place-title">
+                Przestrzeganie obowiązujących zasad i procedur BHP.
+              </li>
+              <li class="my-work-place-title">
+                Terminowe realizowanie zleceń.
+              </li>
+            </ul>
+          </div>
+
+          <h2 class="Work-experience">Wykształcenie</h2>
+          <p>09/2004-08/2010</p>
+          <h4 class="my-work-place">Państwowy Uniwersytet Humanistyczny</h4>
+          <p>Nauczyciel tańca</p>
+          <div>
+            <!-- Języki -->
+            <h2 class="Work-experience">Języki Obce</h2>
+            <div class="language">
+              <span>Rosyjski:</span>
+              <div class="level b2"></div>
+              <small>Wyższy średnio zaawansowany</small>
+            </div>
+            <div class="language">
+              <span>Ukraiński:</span>
+              <div class="level c2"></div>
+              <small>Biegły</small>
+            </div>
+            <div class="language">
+              <span>Angielski:</span>
+              <div class="level a2"></div>
+              <small>Podstawowy</small>
+            </div>
+            <div class="language">
+              <span>Polski</span>
+              <div class="level b1"></div>
+              <small>Średnio zaawansowany</small>
+            </div>
+          </div>
+        </main>
       </div>
-      <main>
-        <!-- Work experience -->
-        <h2>Doświadczenie</h2>
-
-        <p>11/2023-obecnie</p>
-        <h3>Pracownik produkcji</h3>
-        <h4>World Sports Company. Stargard</h4>
-        <ul>
-          <li>Realizowanie założonych ceów według planów produkcyjnych.</li>
-          <li>Przestrzeganie obowiązujących zasad i procedur BHP.</li>
-          <li>Współpracowanie z innymi pracownikami produkcji.</li>
-        </ul>
-
-        <p>08/2023-11/2023</p>
-        <h3>Monter grzejnictwa</h3>
-        <h4>Backer obr. Stargard</h4>
-        <ul>
-          <li>Przygotowanie materiałów i narzędzi potrzebnych do montażu.</li>
-          <li>
-            Przestrzeganie przepisów BHP i norm jakościowych podczas pracy.
-          </li>
-        </ul>
-
-        <p>02/2021-07/2023</p>
-        <h3>Pracownik produkcji</h3>
-        <h4>SPAAS Candles. Stargard</h4>
-        <ul>
-          <li>Realizowanie założonych celów według planów produkcijnych.</li>
-          <li>Przestrzeganie obowiązujących zasad i procedur BHP.</li>
-          <li>Terminowe realizowanie zleceń.</li>
-        </ul>
-
-        <h2>Wykształcenie</h2>
-        <p>09/2004-08/2010</p>
-        <h4>Państwowy Uniwersytet Humanistyczny</h4>
-        <p>Nauczyciel tańca</p>
-        <div>
-          <!-- Języki -->
-          <h2>Języki Obce</h2>
-          <div class="language">
-            <span>Rosyjski:</span>
-            <div class="level b2"></div>
-            <small>Wyższy średnio zaawansowany</small>
-          </div>
-          <div class="language">
-            <span>Ukraiński:</span>
-            <div class="level c2"></div>
-            <small>Biegły</small>
-          </div>
-          <div class="language">
-            <span>Angielski:</span>
-            <div class="level a2"></div>
-            <small>Podstawowy</small>
-          </div>
-          <div class="language">
-            <span>Polski</span>
-            <div class="level b1"></div>
-            <small>Średnio zaawansowany</small>
-          </div>
-        </div>
-      </main>
       <!-- Sidebar -->
-      <aside>
+      <aside class="Sidebar">
         <img
           src="./image/img.jpg"
           alt="Photo of Natalia Adler"
           width="370"
           height="370"
         />
-        <div>
-          <!-- Podsumowanie -->
-          <h3>Podsumowanie</h3>
-          <p>
-            Z zaangażowaniem podchodzę do powierzanych mi zadań,dążąc do
-            realizacji wyznaczonych celów.Jestem sumiennai odpowiedzialna oraz
-            potrafię dobrze planować swoją pracę.Chętnie podejmę nowe wyzwania,
-            które pozwolą mi na rozwój zawodowy.Sumienny pracownik z
-            doświadczeniem w pracy na linii produkcyjnej. Moje silne strony to
-            precyzja,umiejętność szybkiego przyswajania nowych procedur oraz
-            dbałość o szcsegóły,co przekłada się na wysoką jakość wykonywanej
-            przeze mnie pracy. Potrafię szybko adaptować się do zmian w
-            procesach produkcijnych i chętnie podejmę nowe wyzwania.
-          </p>
-        </div>
-        <div>
-          <!-- Umiejętności -->
-          <h3>Umiejętności</h3>
-          <ul>
-            <li>Bieząca kontrola jakości wyrobów</li>
-            <li>Punktualność</li>
-            <li>Samodzielność</li>
-            <li>Umiejętność szybkiego uczenia się</li>
-            <li>Gotowość do pracy zmianowej</li>
-            <li>Zaangażowanie</li>
-            <li>Umiejętność pracy w zespole</li>
-            <li>Motywacja do nauki nowych umiejętności</li>
-            <li>Skrupulatność i dokładność</li>
-            <li>Zdolności komunikacyjne</li>
-            <li>Zorientowanie na efektywność produkcyjną</li>
-            <li>Skrupulatność</li>
-            <li>Doświadczenie w pracy na linii produkcyjnej</li>
-            <li>Obsługa maszyn i urządzeń produkcyjnych</li>
-          </ul>
+        <div class="sidebar-content">
+          <div>
+            <!-- Podsumowanie -->
+            <h3 class="sidbar-title">Podsumowanie</h3>
+            <p class="sidbar-type">
+              Z zaangażowaniem podchodzę do powierzanych mi zadań,dążąc do
+              realizacji wyznaczonych celów.Jestem sumiennai odpowiedzialna oraz
+              potrafię dobrze planować swoją pracę.Chętnie podejmę nowe
+              wyzwania, które pozwolą mi na rozwój zawodowy.Sumienny pracownik z
+              doświadczeniem w pracy na linii produkcyjnej. Moje silne strony to
+              precyzja,umiejętność szybkiego przyswajania nowych procedur oraz
+              dbałość o szcsegóły,co przekłada się na wysoką jakość wykonywanej
+              przeze mnie pracy. Potrafię szybko adaptować się do zmian w
+              procesach produkcijnych i chętnie podejmę nowe wyzwania.
+            </p>
+          </div>
+          <div>
+            <!-- Umiejętności -->
+            <h3 class="sidbar-title">Umiejętności</h3>
+            <ul class="sidbar-list">
+              <li>Bieząca kontrola jakości wyrobów</li>
+              <li>Punktualność</li>
+              <li>Samodzielność</li>
+              <li>Umiejętność szybkiego uczenia się</li>
+              <li>Gotowość do pracy zmianowej</li>
+              <li>Zaangażowanie</li>
+              <li>Umiejętność pracy w zespole</li>
+              <li>Motywacja do nauki nowych umiejętności</li>
+              <li>Skrupulatność i dokładność</li>
+              <li>Zdolności komunikacyjne</li>
+              <li>Zorientowanie na efektywność produkcyjną</li>
+              <li>Skrupulatność</li>
+              <li>Doświadczenie w pracy na linii produkcyjnej</li>
+              <li>Obsługa maszyn i urządzeń produkcyjnych</li>
+            </ul>
+          </div>
         </div>
       </aside>
     </div>
